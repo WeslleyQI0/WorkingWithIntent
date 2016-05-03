@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/send_mail_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_mail" />
+
+        <Button
+            android:id="@+id/send_sms_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_sms" />
+
+        <Button
+            android:id="@+id/open_map_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/map_at_coordinates" />
+
+        <Button
+            android:id="@+id/map_source_to_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/map_source_to_destination" />
+
+        <Button
+            android:id="@+id/map_current_location_to_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/map_current_to_destination" />
+
+        <Button
+            android:id="@+id/make_call_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/make_call" />
+
+        <Button
+            android:id="@+id/use_browser_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/use_browser" />
+
+        <Button
+            android:id="@+id/display_contacts_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Contacts" />
+
+        <Button
+            android:id="@+id/send_whatsapp_messsage_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send message what's App" />
+
+        <Button
+            android:id="@+id/open_second_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open second Activity" />
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WorkingWithIntent</string>
+    <string name="send_mail">Enviar email</string>
+    <string name="send_sms">Enviar SMS</string>
+    <string name="map_at_coordinates">Map nas Coordenadas</string>
+    <string name="map_source_to_destination">Mapa - Origem a destino</string>
+    <string name="map_current_to_destination">Map - Localização à destino</string>
+    <string name="make_call">Realizar ligação</string>
+    <string name="use_browser">Utilizar navegador</string>
+    <string name="second_activity">Segunda activity</string>
+
+    <string name="no_mail_client_installed">Não existe cliente de e-mail instalado</string>
+
+    <string name="sms_message_to_be_sent">Mensagem a ser enviada via SMS</string>
+    <string name="text_to_be_sent">Texto a ser enviado.</string>
+
+    <string name="mail_subject">Assunto do e-mail</string>
+    <string name="mail_message">Corpo do e-mail</string>
+    <string name="random_recipient">recipiente@servidor.com</string>
+</resources>
